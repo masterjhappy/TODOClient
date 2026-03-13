@@ -1,6 +1,7 @@
 to run the application 
 
 1) Please start the TODOListAPI with the steps below:
+   
 
   a) you need to have visual studio 2026 installed. please installed visual studio 2026
 
@@ -11,7 +12,10 @@ to run the application
 
    
 
+   
+
 2) please run the angular client application with the steps below
+   
 
   a) open command prompt using   the Start Menu (Search)
   by typing cmd and after that click and open Command Prompt
@@ -33,9 +37,12 @@ to run the application
 
   if all good you will see the todo list application
 
+  
+
 
 
 3) this is how you use the application:
+   
    
    a) to create a new todo
    - fill in the todo task
