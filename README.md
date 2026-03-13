@@ -1,59 +1,50 @@
-# TodoClient
+to run the application 
 
-This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 21.0.2.
+1) Please start the TODOListAPI with the steps below:
 
-## Development server
+a) you need to have visual studio 2026 installed. please installed visual studio 2026 
+b) open TODOListAPI-main solution/TODOListAPI.slnx with visual studio 2026
+c) click the start debugging button , it will take 1 to 2 minutes when running 
+   for the first time
+   
+2) please run the angular client application with the steps below
 
-To start a local development server, run:
+a) open command prompt using   the Start Menu (Search)
+   by typing cmd and after that click and open Command Prompt
+   
+b) use the command prompt to go to the  TODOClient-main directory where the package.json is located
+   on my computer it is in this folder "D:\test\testGlobal\TODOClient-main>"
 
-```bash
-ng serve
-```
+   so I used  this command on the command prompt "cd D:\test\testGlobal\TODOClient-main"
 
-Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
+c)  Install Dependencies with npm install, this might take a while
 
-## Code scaffolding
+D:\test\testGlobal\TODOClient-main>npm install
 
-Angular CLI includes powerful code scaffolding tools. To generate a new component, run:
+d) run the angular client with npm start
 
-```bash
-ng generate component component-name
-```
+D:\test\testGlobal\TODOClient-main>npm start
 
-For a complete list of available schematics (such as `components`, `directives`, or `pipes`), run:
+e) opeh the application with Chrome browser   http://localhost:4200/
 
-```bash
-ng generate --help
-```
+if all good you will see the todo list application
 
-## Building
+3) this is how you use the application:
+   a) to create a new todo 
+      - fill in the todo task
+	  - fill the description
+	  - click the add button
+   b) to update todo
+      - click the edit button
+	  - update the todo task if you want
+	  - update the todo description if you want
+	  - click the update button(after you click the edit button the add button text will be change to update)
+   c) the task can be change to done by clicking the checkbox
+      clicking the checkbox will toggle the text, a done task text will be strike through line
+	  clicking the checkbos again will remove the strike through line.
+   d) the task can be deleted with the delete button
+   
 
-To build the project run:
-
-```bash
-ng build
-```
-
-This will compile your project and store the build artifacts in the `dist/` directory. By default, the production build optimizes your application for performance and speed.
-
-## Running unit tests
-
-To execute unit tests with the [Vitest](https://vitest.dev/) test runner, use the following command:
-
-```bash
-ng test
-```
-
-## Running end-to-end tests
-
-For end-to-end (e2e) testing, run:
-
-```bash
-ng e2e
-```
-
-Angular CLI does not come with an end-to-end testing framework by default. You can choose one that suits your needs.
-
-## Additional Resources
-
-For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+PS: the angular client application was build with  node.js version  v24.11.1 
+if there are issue running the angular client the node version might be the issue
+please download the correct node js version
