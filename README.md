@@ -34,17 +34,20 @@ if all good you will see the todo list application
 3) this is how you use the application:
    
    a) to create a new todo
+   
    - fill in the todo task
 	 - fill the description
 	 - click the add button
      
    b) to update todo
+   
     - click the edit button
 	  - update the todo task if you want
 	  - update the todo description if you want
 	  - click the update button(after you click the edit button the add button text will be change to update)
       
    c) the task can be change to done by clicking the checkbox
+   
     - clicking the checkbox will toggle the text, a done task text will be strike through line
     - clicking the checkbos again will remove the strike through line.
       
