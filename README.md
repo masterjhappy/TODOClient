@@ -9,6 +9,8 @@ to run the application
   c) click the start debugging button , it will take 1 to 2 minutes when running 
    for the first time
 
+   
+
 2) please run the angular client application with the steps below
 
   a) open command prompt using   the Start Menu (Search)
@@ -30,6 +32,8 @@ to run the application
   e) opeh the application with Chrome browser   http://localhost:4200/
 
   if all good you will see the todo list application
+
+
 
 3) this is how you use the application:
    
