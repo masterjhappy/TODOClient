@@ -1,6 +1,7 @@
 to run the application 
 
 1) Please start the TODOListAPI with the steps below:
+
 a) you need to have visual studio 2026 installed. please installed visual studio 2026
 
 b) open TODOListAPI-main solution/TODOListAPI.slnx with visual studio 2026
