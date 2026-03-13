@@ -8,8 +8,8 @@ b) open TODOListAPI-main solution/TODOListAPI.slnx with visual studio 2026
 
 c) click the start debugging button , it will take 1 to 2 minutes when running 
    for the first time
-   
-3) please run the angular client application with the steps below
+
+2) please run the angular client application with the steps below
 
 a) open command prompt using   the Start Menu (Search)
   by typing cmd and after that click and open Command Prompt
