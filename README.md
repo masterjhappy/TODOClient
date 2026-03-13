@@ -27,7 +27,7 @@ to run the application
 
   D:\test\testGlobal\TODOClient-main>npm start
 
-  e) opeh the application with Chrome browser   http://localhost:4200/
+  e) open the application with Chrome browser   http://localhost:4200/
 
   if all good you will see the todo list application
 
@@ -47,7 +47,7 @@ to run the application
       
    c) the task can be change to done by clicking the checkbox
    
-    - clicking the checkbox will toggle the text, a done task text will be strike through line
+    - clicking the checkbox will toggle the text, a done task text will have strike through line
     - clicking the checkbos again will remove the strike through line.
       
    d) the task can be deleted with the delete button
