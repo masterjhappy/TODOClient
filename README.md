@@ -2,34 +2,34 @@ to run the application
 
 1) Please start the TODOListAPI with the steps below:
 
-a) you need to have visual studio 2026 installed. please installed visual studio 2026
+  a) you need to have visual studio 2026 installed. please installed visual studio 2026
 
-b) open TODOListAPI-main solution/TODOListAPI.slnx with visual studio 2026
+  b) open TODOListAPI-main solution/TODOListAPI.slnx with visual studio 2026
 
-c) click the start debugging button , it will take 1 to 2 minutes when running 
+  c) click the start debugging button , it will take 1 to 2 minutes when running 
    for the first time
 
 2) please run the angular client application with the steps below
 
-a) open command prompt using   the Start Menu (Search)
+  a) open command prompt using   the Start Menu (Search)
   by typing cmd and after that click and open Command Prompt
    
-b) use the command prompt to go to the  TODOClient-main directory where the package.json is located
+  b) use the command prompt to go to the  TODOClient-main directory where the package.json is located
   on my computer it is in this folder "D:\test\testGlobal\TODOClient-main>"
 
   so I used  this command on the command prompt "cd D:\test\testGlobal\TODOClient-main"
 
-c) Install Dependencies with npm install, this might take a while
+  c) Install Dependencies with npm install, this might take a while
 
-D:\test\testGlobal\TODOClient-main>npm install
+  D:\test\testGlobal\TODOClient-main>npm install
 
-d) run the angular client with npm start
+  d) run the angular client with npm start
 
-D:\test\testGlobal\TODOClient-main>npm start
+  D:\test\testGlobal\TODOClient-main>npm start
 
-e) opeh the application with Chrome browser   http://localhost:4200/
+  e) opeh the application with Chrome browser   http://localhost:4200/
 
-if all good you will see the todo list application
+  if all good you will see the todo list application
 
 3) this is how you use the application:
    
