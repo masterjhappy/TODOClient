@@ -1,0 +1,26 @@
+<div class="myContent">
+  <div class="myForm">
+    <input [(ngModel)]="activeTodo().name" placeholder="todo task" />
+    <input [(ngModel)]="activeTodo().description" placeholder="description" />
+    <button (click)="save()">{{ activeTodo().id ? 'Update' : 'Add' }}</button>
+  </div>
+
+  @let itemList = todoSvc.todos();
+
+  @if (itemList.length > 0) {
+    <H2>My TODO list</H2>
+    <ul>
+      @for (item of itemList; track item.id) {
+        <li>
+          <input type="checkbox" [checked]="item.isDone" (change)="toggleTodoCheckbox(item)" />
+          <span [class.done]="item.isDone">{{ item.name }}</span>
+          <span [class.done]="item.isDone">{{ item.description }}</span>
+          <button (click)="edit(item)">Edit</button>
+          <button (click)="deleteItem(item.id)">Delete</button>
+        </li>
+      }
+    </ul>
+  } @else {
+    <H2>Please add TODO</H2>
+  }
+</div>
